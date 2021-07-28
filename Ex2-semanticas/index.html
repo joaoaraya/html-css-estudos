@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semanticas</title>
+    <style>
+        /* mudei a cor de todas as marcações do docuemnto que nao tem style */
+        mark {
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -22,5 +28,22 @@
         <!--Forma certa e nova-->
         acima de <em>tudo!</em>
     </p> 
+    <h1>Marcação de texto</h1>
+    <p>
+        Tudo que você achar <mark>importe marque!</mark>
+        <br>
+        Mas podemos usar outras <mark style="background-color: red;">cores!</mark>
+    </p>
+    <h1>Textos de varios tamanhos</h1>
+    <p>
+        1- Texto <big>grande</big> <!--nao usado mais-->
+        e texto <small>pequeno</small>
+        <br>
+        2- Texto <ins>inserido</ins> 
+        e texto <del>deletado</del>
+        <br>
+        3- Texto sobrescrito: x<sup>20</sup>+10 <!--sup de superior-->
+        e texto subescrito: H<sub>2</sub>O
+    </p>
 </body>
 </html>
