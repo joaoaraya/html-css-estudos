@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+
+    <h2>Listas oredenas</h2> 
+    <!--1: numeros, I: romanos, A: letras-->
+    <ol type="1"> 
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <!--Tirar o /li é opcional segue o ex abaixo-->
+        <li>Sair de casa
+        <li>Pegar o onibus
+    </ol>
+    <h2>Mudei qual o numero que começa!</h2>
+    <ol start="5">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <!--Sem numeração: disc, circle e square-->
+    <ul type="disc">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ul>
+
+    <h2>Todas as formas</h2>
+    <ul>
+        <li type="disc">Acordar</li> <!--pontinhos-->
+        <li type="circle">Tomar café</li> <!--circulos-->
+        <li type="square">Escovar os dentes</li> <!--quadradinhos-->
+        <li type="I">Sair de casa</li> <!--numero romano maiusculo-->
+        <li type="A">Pegar o onibus</li> <!--LETRAS-->
+        <li type="1">Viajar</li> <!--numeros-->
+    </ul>
+
+    <h2>Listas dentro de listas</h2>
+    <ol>
+        <li>Personagens jogaveis:</li>
+        <ul type="square">
+            <li>Sonic</li>
+            <li>Tails</li>
+            <li>Knuckles</li>
+            <li>Might</li>
+            <li>Ray</li>
+        </ul>
+        <li>Equipes Jogaveis:</li>
+        <ul type="square">
+            <li>Sonic+Tails</li>
+            <li>Shadow+Metal</li>
+            <li>Amy+Knuckles</li>
+            <li>Mighty+Ray</li>
+            <li>Espio+Vector</li>
+        </ul>
+    </ol>
+    <!--ao licar em uma linha, e segurar "alt" ele escreve em varias linhas-->
+    
+    <h2>Listas de definições</h2>
+    <dl>
+        <dt>Html</dt>
+        <dd>Linguaguem de marcação para o conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para o desing para um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a interatividade de um site</dd>
+    </dl>
+</body>
+</html>
