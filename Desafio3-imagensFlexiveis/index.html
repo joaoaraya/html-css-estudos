@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Oceano Ondulado</h1>
+    <p>Olha a beleza dessa praia, em todos os tamanhos!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-p.jpg" type="image/jpg" width="100%">
+        <source media="(max-width: 1050px)" srcset="img/img-m.jpg" type="image/jpg" width="100%">
+        <img src="img/img-g.jpg" width="100%">
+    </picture>
+</body>
+</html>
